@@ -8,21 +8,28 @@
     <link rel="stylesheet" href="/main.css">
 </head>
 <body>
-
-    <div class="menu">
+    <!--implement a skip to content A11y change-->
+    <a class="skip-to-content-link" href="#main">
+        Skip to content
+      </a>
+    <!-- semantic html change.. set id as nav to indicate navigation-->
+    
+    <div class="menu" id = "nav">
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about.html">About</a></li>
             <li><a href="/login.html">Login</a></li>
-            <li><a href="https://google.com">Google</a></li>
+            <li><a title = "link to google home page"href="https://google.com">Google</a></li>
         </ul>
     </div>
 
+   <!-- semantic html change.. indicate header using header element--> 
+<header>
     <div class="hero">
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
     </div>
-
+</header>
     <div class="container center">
 
         <div class="page-area">
@@ -94,12 +101,13 @@
         </div>
 
     </div>
-
+    <!--semantic html change.. indicate footer using footer element-->
+<footer> 
     <div class="bottom">
         <div class="center">
             All rights reserved &copy; Fabio Nolasco
         </div>
     </div>
-
+</footer>
 </body>
 </html>

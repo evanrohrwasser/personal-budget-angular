@@ -96,3 +96,10 @@ div.hero h2 {
         margin: 10px;
     }
 }
+/*css to hide skip to content link and show off screen */
+.skip-to-content-link {
+    left: 50%;
+    position: absolute;
+    transform: translateY(-100%);
+  }
+  
