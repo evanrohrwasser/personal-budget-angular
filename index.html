@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Budget</title>
-    <link rel="stylesheet" href="/reset.css">
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <!--implement a skip to content A11y change-->
@@ -16,17 +16,18 @@
     
     <div class="menu" id = "nav">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/login.html">Login</a></li>
-            <li><a title = "link to google home page"href="https://google.com">Google</a></li>
+            <!--A11y change... add title attribute to give more information about links -->
+            <li><a title = "Link to our home page" href="/">Home</a></li>
+            <li><a title = "Link to our about page" href="/about.html">About</a></li>
+            <li><a title = "Link to our login page" href="/login.html">Login</a></li>
+            <li><a title = "Link to google home page"href="https://google.com">Google</a></li>
         </ul>
     </div>
 
    <!-- semantic html change.. indicate header using header element--> 
 <header>
     <div class="hero">
-        <h1>Personal Budget</h1>
+        <h1>wuff Budget</h1>
         <h2>A personal-budget management app</h2>
     </div>
 </header>
