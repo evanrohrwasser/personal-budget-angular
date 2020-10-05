@@ -119,19 +119,29 @@
     var dataSource = {
         datasets: [
             {
-                data: [30, 350, 90],
+                data: [30, 350, 90, 40, 50, 45, 250],
                 backgroundColor: [
                     '#ffcd56',
                     '#ff6384',
                     '#36a2eb',
-                    '#fd6b19'
+                    '#fd6b19',
+                    '#900C3F',
+                    '#3341FF',
+                    '#FF33FB'
+                    
+                   
                 ],
             }
         ],
         labels: [
             'Eat Out',
             'Rent',
-            'Groceries'
+            'Groceries',
+            'Gas',
+            'Subscriptions',
+            'Phone',
+            'Insurance'
+
         ]
     };
     
@@ -156,6 +166,8 @@
         })
     }
     getBudget();
+
+
     
 </script>
 </body>
