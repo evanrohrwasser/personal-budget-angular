@@ -27,7 +27,7 @@ const budget = {
 
  
 app.get('/budget', (req, res) => {
-    res.use(budget);
+    res.json(budget);
 });
 
  
