@@ -55,5 +55,5 @@ export class HomepageComponent implements AfterViewInit {
         type: 'pie',
         data: this.dataSource
     });
-}
+  }
 }

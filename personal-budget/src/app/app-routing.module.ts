@@ -21,12 +21,12 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
-    path: '**',
-    component: P404Component
-  },
-  {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: '**',
+    component: P404Component
   }
 ];
 
